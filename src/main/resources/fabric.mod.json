@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hollowremote",
+  "version": "${version}",
+  "name": "The Hollow Remote",
+  "description": "A cursed remote that opens a menu of horror pranks.",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.hollow.HollowMod"],
+    "client": ["com.example.hollow.HollowClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
